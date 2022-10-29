@@ -89,7 +89,7 @@ table {
             border:4px solid;
             border-color: white;
             width: 1050px;
-            height: 45px;
+            height: 65px;
             color: white;
             border-radius: 10px;
         }
@@ -97,7 +97,9 @@ table {
             font-family: 'Roboto Condensed', sans-serif;
             font-size: 40px;
             text-align: center;
+            text-align: match-parent;
             border-radius: 50px;
+            vertical-align: middle;
         }
         img{
             margin-bottom: 1em;
@@ -117,6 +119,9 @@ table {
             margin-left: 105px;
             margin-right: 105px;
             margin-bottom: 40px;
+        }
+          body b{
+            font-weight: 700;
         }
               
     </style>
@@ -142,9 +147,9 @@ table {
 <table border cellpadding="20">
 <meta charset="utf-8">
 <tr>
-    <td bgcolor="FF0000" class="selected"><a href="        "><b>INICIO</b></a></td>
-    <td bgcolor="FF0000" class="selected"><a href="        "><b>HISTORIAS DE BOXEADORES</b></a></td>
-    <td bgcolor="0000FF" class="selected"><a href=" "><b>QUIÉNES SOMOS</b></a></td>
+    <td bgcolor="FF0000" class="selected"><a href="https://nico-ariel.github.io/MentalBoxInicio/"><b>INICIO</b></a></td>
+    <td bgcolor="FF0000" class="selected"><a href="https://nico-ariel.github.io/MentalBoxHistorias/"><b>HISTORIAS DE BOXEADORES</b></a></td>
+    <td bgcolor="0000FF" class="selected"><a href=""><b>QUIÉNES SOMOS</b></a></td>
 </tr>
 </table>
 </center>
